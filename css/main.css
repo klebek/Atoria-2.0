@@ -1,0 +1,101 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);*/
+
+@font-face { font-family: ProximaNova;
+    src: url('../proximaNova.otf'); }
+
+@font-face { font-family: ProximaNovaSemibold;
+    src: url('../proximaNovaSemibold.otf'); }
+
+body{
+
+background-image:url(../img/bg.jpg);
+background-color: #020202;
+background-repeat: no-repeat;
+background-position: top;
+color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.getIn {
+    width: 200px;
+    height: 150px;
+    margin-top: 10%;
+    margin-left: -0%;
+    display: inline-block;
+    position: relative;
+    background:transparent url(../img/getIn_hover1.png) center top no-repeat;
+}
+
+.getIn:hover {
+    background-image: url(../img/getIn.png);
+}
+
+.menu {
+    margin-top: -1%;
+    margin-left: -1%;
+    width: 390px;
+    height: 1020px;
+    background-image:url(../img/menu.png);
+    position: fixed;
+
+}
+
+.description {
+    margin-top: 25%;
+    margin-left: 46.5%;
+    width: 470px;
+    height: 355px;
+    position: absolute;
+    text-align: center;
+}
+
+.description t {
+    font-family: ProximaNovaSemibold;
+    font-size: 40px;
+}
+
+.description k {
+    font-family: ProximaNova;
+    font-size: 20px;
+}
+
+.buttons {
+     position: relative;
+     margin-top: 100%;
+     margin-left: 0%;
+ }
+
+.buttons a {
+    position: relative;
+    width: 370px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    color: white;
+    font-family: ProximaNova;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.buttons a:hover {
+    background-color: white;
+    color: #020202;
+    font-family: ProximaNovaSemibold;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#bcbcbc));
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#FFFFFF), to(#bcbcbc));
+    background: -moz-linear-gradient(center top, #FFFFFF, #bcbcbc);
+    padding-right: 40px;
+    font-size: larger;
+}
+
+
+
+
+
